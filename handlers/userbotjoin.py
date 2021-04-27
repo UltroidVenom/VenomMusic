@@ -39,25 +39,25 @@ async def addchannel(client, message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "Musicbot_Robo"
+        user.first_name =  "vctgassistant8"
 
     try:
         await USER.join_chat(invitelink)
         await USER.send_message(message.chat.id,"I joined here as you requested")
     except UserAlreadyParticipant:
         await message.reply_text(
-            "<b>@Musicbot_Robo already in your chat</b>",
+            "<b>@vctgassistant8 already in your chat</b>",
         )
         pass
     except Exception as e:
         print(e)
         await message.reply_text(
-            f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure @Musicbot_Robo is not banned in group."
-            "\n\nOr manually add @Musicbot_Robo to your Group and try again</b>",
+            f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure @vctgassistant8 is not banned in group."
+            "\n\nOr manually add @vctgassistant8 to your Group and try again</b>",
         )
         return
     await message.reply_text(
-            "<b>@Musicbot_Robo userbot joined your chat</b>",
+            "<b>@vctgassistant8 userbot joined your chat</b>",
         )
     
 @USER.on_message(filters.group & filters.command(["leave"]))
@@ -66,7 +66,7 @@ async def rem(USER, message):
         await USER.leave_chat(message.chat.id)
     except:  
         await message.reply_text(
-            f"<b>@Musicbot_Robo couldn't leave your group! May be floodwaits."
+            f"<b>@vctgassistant8 couldn't leave your group! May be floodwaits."
             "\n\nOr manually kick me from  your Group</b>",
         )
         return
