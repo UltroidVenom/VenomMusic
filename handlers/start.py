@@ -19,7 +19,7 @@ Use the buttons below to know more about me.""",
             [
                 [
                     InlineKeyboardButton(
-                        "⚒ COMMANDS", url="https://telegra.ph/tgvc8robot-vctgassistant8-04-27"
+                        "⚒ COMMANDS", url="https://telegra.ph/tgvc6robot-vctgassistant6-04-21"
                     )
                 ],
                 [
