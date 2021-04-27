@@ -34,7 +34,7 @@ Use the buttons below to know more about me.""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "Add Me", url="http://t.me/groupvcRobot?startgroup=true"
+                        "Add Me", url="http://t.me/MusicVcRobot?startgroup=true"
                     )
                 ]
             ]
