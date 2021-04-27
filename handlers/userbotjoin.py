@@ -23,7 +23,7 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors import UserAlreadyParticipant
 from helpers.decorators import errors, authorized_users_only
 
-@Client.on_message(filters.group & filters.command(["userbotjoin"]))
+@Client.on_message(filters.group & filters.command(["join"]))
 @authorized_users_only
 @errors
 async def addchannel(client, message):
@@ -32,7 +32,7 @@ async def addchannel(client, message):
         invitelink = await client.export_chat_invite_link(chid)
     except:
         await message.reply_text(
-            "<b>Add me as admin of yor group first</b>",
+            "<b>Add me as admin of your group first</b>",
         )
         return
 
@@ -46,27 +46,27 @@ async def addchannel(client, message):
         await USER.send_message(message.chat.id,"I joined here as you requested")
     except UserAlreadyParticipant:
         await message.reply_text(
-            "<b>helper already in your chat</b>",
+            "<b>@vctgassistant8 already in your chat</b>",
         )
         pass
     except Exception as e:
         print(e)
         await message.reply_text(
-            f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure user is not banned in group."
+            f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure @vctgassistant8 is not banned in group."
             "\n\nOr manually add @vctgassistant8 to your Group and try again</b>",
         )
         return
     await message.reply_text(
-            "<b>helper userbot joined your chat</b>",
+            "<b>@vctgassistant8 userbot joined your chat</b>",
         )
     
-@USER.on_message(filters.group & filters.command(["userbotleave"]))
+@USER.on_message(filters.group & filters.command(["leave"]))
 async def rem(USER, message):
     try:
         await USER.leave_chat(message.chat.id)
     except:  
         await message.reply_text(
-            f"<b>User couldn't leave your group! May be floodwaits."
+            f"<b>@vctgassistant8 couldn't leave your group! May be floodwaits."
             "\n\nOr manually kick me from to your Group</b>",
         )
         return
