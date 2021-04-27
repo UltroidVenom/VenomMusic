@@ -118,6 +118,15 @@ async def skip(_, message: Message):
 
 
 @Client.on_message(
+    filters.command("help")
+    & filters.group
+    & ~ filters.edited
+)
+async def helper(client , message:Message):
+     await message.reply_text("The commands and there use is explained here-: \n `/jio` To search song on jio saavan and play the first result \n `/deezer` To search the song on deezer and get good quality stream \n `/play` song name To search the song on Youtube and play the first matching result \n `/skip` to skip current song \n `/end to stop the streaming of song \n `/pause` to pause the stream \n `/resume` to resume the playback. \n Inline search is also supported. \n `/join` to join the assistant. \n `/leave` to leave the assistant.\n `/playlist` to get the queue")
+
+
+@Client.on_message(
     filters.command("admincache")
 )
 @errors
