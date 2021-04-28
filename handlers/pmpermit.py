@@ -24,5 +24,6 @@ from pyrogram.types import Chat, Message, User
 
 @USER.on_message(filters.text & filters.private & ~filters.me & ~filters.bot)
 async def pmPermit(client: USER, message: Message):
-  await USER.send_message(message.chat.id,"Hi there, This is a music assistant service of @tgvc8robot.\n\n ❗️ Rules:\n   - No chatting allowed\n   - No spam allowed \n\n 👉 **SEND GROUP INVITE LINK OR USERNAME IF USERBOT CAN'T JOIN YOUR GROUP.**\n\n ⚠️ Disclamer: If you are sending a message here it means admin will see your message and join chat\n    - Don't add this user to secret groups.\n   - Don't Share private info here\n\n")
+  await USER.send_message(message.chat.id,"Hi there, This is a music assistant service of @tgvc8robot.\n\n **❗️⛔️ READ BEFORE TEXT ⛔️❗️**\n\n❗️ Rules:\n   - No chatting allowed\n   - No spam allowed - No Group links\n    - Don't msg hi hello to admins\n   - Don't send stickers\n\n  👉 **TO ADD ASSISTANG MANUALLY FOLLOW BELOW STEPS.**\n\n add @tgvc8robot
+Promote with all permissions\n\n Type /join\n\n **⚠️ Note : if you are unable to add music assistant in  private groups just make the group public for one minute and send the group link here or in @God_loverr dm and after the music assistant joins you can make your group private again.**\n\n 🔴 DONT MSG HI HELLO TO @GOD_LOVERR JUST MSG YOUR GROUP USERNAME AND WAIT FOR HIS REPLY AND DONT SPAM\n\n **❗if you need any help just ask here @CheemsUserbot.**\n\n")
   return                        
