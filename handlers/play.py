@@ -462,7 +462,7 @@ async def play(_, message: Message):
         #lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i> {user.first_name}  not in this chat, Ask admin to send /play command for first time or add {user.first_name} manually</i>"
+            f"<i> {user.first_name} @vctgassistant8  not in this chat, Ask admin to send /play command for first time or add {user.first_name} manually</i>"
         )
         return     
     sender_id = message.from_user.id
