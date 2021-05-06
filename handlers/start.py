@@ -19,22 +19,22 @@ Use the buttons below to know more about me.""",
             [
                 [
                     InlineKeyboardButton(
-                        "⚒ COMMANDS", url="https://telegra.ph/tgvc8robot-vctgassistant8-04-27"
+                        "⚒ COMMANDS", url="https://telegra.ph/MUSIC-BOT-05-06"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/CheemsBotChat"
+                        "💬 Group", url="https://t.me/CrackMonkeyChats"
                     ),
                     InlineKeyboardButton(
-                        "Channel 🔈", url="https://t.me/CheemsUserbot"
+                        "Channel 🔈", url="https://t.me/CrackMonkey"
                     ),
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/CheemsUserbot" )
+                        "Support", url="https://t.me/CrackMonkey" )
                 ],
                 [
                     InlineKeyboardButton(
-                        "Add Me", url="http://t.me/musicvc10bot?startgroup=true"
+                        "Add Me", url="http://t.me/VenomMusicBot?startgroup=true"
                     )
                 ]
             ]
