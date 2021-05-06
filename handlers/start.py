@@ -11,7 +11,7 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>👋🏻 Hi {message.from_user.first_name}!</b>
 
-I am  Music Bot, an open-source bot that lets you play music in your Telegram groups voice chat.
+I am  Music Bot, an efficient and a perfect bot that lets you play music in your Telegram groups voice chat.
 
 
 Use the buttons below to know more about me.""",
