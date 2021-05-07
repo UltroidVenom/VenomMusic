@@ -13,6 +13,8 @@ async def start_(client: Client, message: Message):
 
 I am  Music Bot, an efficient and a perfect bot that lets you play music in your Telegram groups voice chat.
 
+Add me in your group to make vc enjoyable
+
 
 Use the buttons below to know more about me.""",
         reply_markup=InlineKeyboardMarkup(
