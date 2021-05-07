@@ -19,7 +19,7 @@ __**Use the buttons below to know more about me.**__""",
             [
                 [
                     InlineKeyboardButton(
-                        "⚒ COMMANDS", url="https://telegra.ph/MUSIC-BOT-05-06"
+                        "⚒ COMMANDS ⚒", url="https://telegra.ph/MUSIC-BOT-05-06"
                     )
                 ],
                 [
@@ -34,7 +34,7 @@ __**Use the buttons below to know more about me.**__""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "Add Me", url="http://t.me/VenomMusicBot?startgroup=true"
+                        "Add Me To Your Group", url="http://t.me/VenomMusicBot?startgroup=true"
                     )
                 ]
             ]
