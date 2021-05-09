@@ -4,9 +4,7 @@
 
 # Available on telegram as @DaisyXbot
 
-<p align="center">
-  <img src="https://telegra.ph/file/dd04b1968f1bc1169d162.jpg">
-</p>
+[![LOGO](https://telegra.ph/file/dd04b1968f1bc1169d162.jpg)](https://telegram.me/CrackMonkey)
 
 <h2> Whats new 🔥 </h2>
 
