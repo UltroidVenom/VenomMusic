@@ -24,10 +24,10 @@ __**Use the buttons below to know more about me.**__""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/CrackMonkeyChats"
+                        "🔈 Channel", url="https://t.me/CrackMonkey"
                     ),
                     InlineKeyboardButton(
-                        "Channel 🔈", url="https://t.me/CrackMonkey"
+                        "Group 💬", url="https://t.me/CrackMonkeyChats"
                     )
                 ],
                 [
