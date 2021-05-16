@@ -28,9 +28,7 @@ __**Use the buttons below to know more about me.**__""",
                     ),
                     InlineKeyboardButton(
                         "Channel 🔈", url="https://t.me/CrackMonkey"
-                    ),
-                    InlineKeyboardButton(
-                        "Support", url="https://t.me/CrackMonkey" )
+                    )
                 ],
                 [
                     InlineKeyboardButton(
