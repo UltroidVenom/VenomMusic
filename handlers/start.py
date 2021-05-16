@@ -19,7 +19,7 @@ __**Use the buttons below to know more about me.**__""",
             [
                 [
                     InlineKeyboardButton(
-                        "⚒ COMMANDS ⚒", url="https://telegra.ph/MUSIC-BOT-05-06"
+                        "⚒ COMMANDS ⚒", url="https://telegra.ph/VENOM-MUSIC-ROBOT-05-16"
                     )
                 ],
                 [
