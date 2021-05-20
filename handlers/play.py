@@ -610,7 +610,7 @@ async def deezer(client: Client, message_: Message):
         #lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i> {user.first_name} Userbot not in this chat, Ask admin to send /play command for first time or add {user.first_name} manually</i>"
+            f"<i> {user.first_name} @VenomVcManager not in this chat, Ask admin to send /play command for first time or add {user.first_name} manually</i>"
         )
         return                            
     requested_by = message_.from_user.first_name   
